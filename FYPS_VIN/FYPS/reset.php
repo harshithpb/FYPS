@@ -8,14 +8,14 @@
 
 		if(isset($_POST['submit'])) 
 		{
-				Update_Password();
+				Update_Password_now();
 		}
 		
 		$vUSERId = $_POST["USER_ID"];
 		$GLOBALS['USER_ID'] = $vUSERId;
 		
 		
-		function Update_Password()
+		function Update_Password_now()
 		{
 			
 		//declare variables for DB connection
