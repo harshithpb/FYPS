@@ -1,0 +1,67 @@
+database: fyps
+user account : fyps
+user host : 127.0.0.1
+pwd: fyps123$
+
+=========================
+create table fyps_user
+(
+    fyps_user_id	varchar(12) not NULL,
+    fyps_user_name	varchar(50),
+    fyps_user_role	varchar(50),
+    fyps_password 	varchar(10)
+);
+
+
+primary key is : fyps_user_id		
+
+	ALTER TABLE fyps_user 
+	ADD PRIMARY KEY (fyps_user_id);
+
+===================================
+insert into fyps_user
+(fyps_user_id, fyps_user_name, fyps_user_role, fyps_password)
+VALUES
+("FYPSADMIN", "ADMIN USER FOR FYPS", "ADMIN", "admin123$");
+
+==============================================================================================================
+CREATE TABLE fyps_faculty
+(
+	fyps_faculty_id	 	VARCHAR (12) not NULL,	
+	fyps_faculty_name	 	VARCHAR (50),
+	fyps_faculty_address		VARCHAR (100),
+	fyps_faculty_contact		INT (15),
+	fyps_faculty_emailid		VARCHAR (50),
+	fyps_faculty_department	VARCHAR (50)
+ );
+
+primary key is : fyps_faculty_id		
+	ALTER TABLE fyps_faculty
+	ADD PRIMARY KEY (fyps_faculty_id);
+====================================
+insert into fyps_faculty
+(fyps_faculty_id, fyps_faculty_name, fyps_faculty_address, fyps_faculty_contact, fyps_faculty_emailid, fyps_faculty_department)
+VALUES
+("FYPSxyz", "xyz", "abcdef", 7895461230, "xyz@gmail.com", "ECE");
+
+==============================================================================================================
+
+
+
+table name for students: 	fyps_student  	- Lelavathi (create script + primary key)
+						one insert record script
+
+
+table name for project: 	fyps_project	- vindya (create script + primary key)
+						one insert record script
+
+table name for faculty v/s project: 	       fyps_faculty_project	- namitha (create script + primary key)
+						one insert record script
+
+table name for project v/s student 	       fyps_project_student 	- prathibha (create script + primary key)
+						one insert record script
+
+====================================================================
+
+
+index.html -harshith

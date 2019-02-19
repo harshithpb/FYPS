@@ -1,0 +1,71 @@
+
+body {
+            background-color: #ffffff;
+			font-family: verdana;
+			
+	 }
+
+h1   {
+            color: red;
+			font-family: courier;
+			font-size: 300%;
+	 }
+
+a
+{
+	color: blue;
+	font-size: 80%;
+}	
+	 
+p    {      
+            color: red;
+			font-size: 160%;
+     }
+	 
+table
+	{
+		border: 3px solid blue;
+		
+	}
+/*  comment   */
+td, th
+	{
+		border: 3px solid red;
+	}
+	
+input.textBox 
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 30px;
+    width: 350px;
+    font-size: 15px;
+    font-family: Verdana;
+    line-height: 30px;
+    display:inline-block; 
+}
+	
+	
+	 
+.fixed-header, .fixed-footer{
+       width: 100%;
+      /* position: fixed;      */  
+        background: #cceeff;
+        padding: 10px 0;
+        color: #993300; 
+		border: 1px solid red;   
+    }
+	
+.fixed-header{
+        top: 0;
+    }
+	
+.body-container {
+		/*border: 1px solid red;   */
+		padding: 10px 10px; 
+		text-align:justify;
+}
+	
+.fixed-footer{
+        bottom: 0;
+    }

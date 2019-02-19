@@ -1,0 +1,66 @@
+
+body {
+            background-color: #ffffff;
+			font-family: verdana;
+	 }
+
+h1   {
+            color: blue;
+			font-family: courier;
+			font-size: 300%;
+	 }
+	 
+h2   {
+            color: red;
+			font-family: courier;
+		
+	 }
+
+
+a
+{
+	color: blue;
+	font-size: 80%;
+}	
+	 
+p    {      
+            color: blue;
+			font-size: 160%;
+     }
+	 
+table
+	{
+		border: 1px solid black;
+		
+	}
+/*  comment   */
+td, th
+	{
+		border: 1px solid black;
+	}
+	
+
+	
+	
+	 
+.fixed-header, .fixed-footer{
+       width: 99%;
+        position: fixed;        
+        background: #99CC33;
+        padding: 3px 0;
+        color: #993300; 
+		border: 1px solid black;
+    }
+	
+.fixed-header{
+        top: 0;
+    }
+	
+.body-container {
+		#border: 1px solid black;
+		padding: 305px;
+}
+	
+.fixed-footer{
+        bottom: 0;
+    }
